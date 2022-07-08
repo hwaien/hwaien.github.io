@@ -1,8 +1,9 @@
 ---
 layout: post
 title: ".NET Properties vs Fields"
-summary: It is best practice to use .NET properties instead of fields.
 ---
+
+It is best practice to use .NET properties instead of fields.
 
 Previously, we saw [6 cases in which properties should be avoided]({% post_url 2015-07-01-net-properties-vs-methods %}). A natural progression of thought may be:
 

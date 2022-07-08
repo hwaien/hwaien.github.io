@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Immutability
-summary: Design your types to be as immutable as possible.
 ---
 
-Today's topic is immutability (not [divine immutability](http://plato.stanford.edu/entries/immutability/), but [immutable objects in computer programming](https://en.wikipedia.org/wiki/Immutable_object)).
+Design your types to be as immutable as possible.
+
+(To clarify, today's topic is about [immutable objects in computer programming](https://en.wikipedia.org/wiki/Immutable_object), not [divine immutability](http://plato.stanford.edu/entries/immutability/).)
 
 ## History of Immutability
 

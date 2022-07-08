@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Technology Selection
-summary: Think twice before adopting new technologies. Always keep your larger business goals in mind.
+---
+
+Think twice before adopting new technologies. Always keep your larger business goals in mind.
+
 ---
 
 If you work with passionate software professionals who care about their craft, it is inevitable to come across discussions about emerging technologies:

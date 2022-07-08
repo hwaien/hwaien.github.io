@@ -1,19 +1,18 @@
 ---
-layout:     post
-title:      Software Engineer Face-to-Face Interview
-summary:    One of the most decisive factors in the success/failure of a team, is the process of selecting suitable team members.
+layout: post
+title: Software Engineer Face-to-Face Interview
 ---
 
 One of the most decisive factors in the success/failure of a team, is the process of selecting suitable team members.
 
 When I interview a candidate face-to-face for a software engineer position, I focus on evaluating these things:
 
- 1. [Consistent Mental Model](#consistent)
- 2. [Passion](#passion)
- 3. [Fluency with Programming Basics](#fluency)
- 4. [Honesty](#honesty)
- 5. [Communication](#communication)
- 6. [Leadership](#leadership)
+1.  [Consistent Mental Model](#consistent)
+2.  [Passion](#passion)
+3.  [Fluency with Programming Basics](#fluency)
+4.  [Honesty](#honesty)
+5.  [Communication](#communication)
+6.  [Leadership](#leadership)
 
 These are my personal preferences. They may not work for you.
 
@@ -89,9 +88,9 @@ Though lack of leadership is not a deal-breaker for me, I do focus on observing 
 
 From interactions during the interview, and from the candidates' track record, I look for indicators of
 
- * Willingness to assume full responsibility
- * The habit of doing more than paid for
- * Definiteness of plans and decisions
- * Cooperation; ability to resolve conflict
- * Mastery of detail
- * A keen sense of fairness
+- Willingness to assume full responsibility
+- The habit of doing more than paid for
+- Definiteness of plans and decisions
+- Cooperation; ability to resolve conflict
+- Mastery of detail
+- A keen sense of fairness
