@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Proof Obligation
-summary: The only effective way to program is to (1) be mindful of proving software correctness before software construction, and (2) let this mindfulness influence software designs during software construction.
 ---
+
+The only effective way to program is to be mindful of proving software correctness before software construction, and let this mindfulness influence software designs during software construction.
 
 [E. W. Dijkstra](http://en.wikipedia.org/wiki/Edsger_W._Dijkstra) spent much of his career researching [formal verification](http://en.wikipedia.org/wiki/Formal_verification), an approach to software verification that is irrelevant to most software teams because it is cost prohibitive. What _is_ relevant to most software teams is the central idea behind Dijkstra's work—the idea of **proof obligation**.
 

@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Avoid Pass-by-Reference in C#"
-summary:    When designing C# libraries for a general audience, avoid the out and ref keywords.
+layout: post
+title: "Avoid Pass-by-Reference in C#"
 ---
+
+When designing C# libraries for a general audience, avoid the `out` and `ref` keywords.
 
 ## What is pass-by-reference?
 
@@ -24,7 +25,7 @@ When arguments are [passed by reference](http://en.wikipedia.org/wiki/Evaluation
 
 If you are looking for a comprehensive explanation, please check out Lee Richardson's article on [parameter passing in C#](http://www.leerichardson.com/2007/01/parameter-passing-in-c.html).
 
-To simplify, C# defaults to the __pass-by-value__ evaluation strategy, but offers the `out` and `ref` keywords for programmers to switch to the pass-by-reference evaluation strategy in special cases. These special cases should be avoided.
+To simplify, C# defaults to the **pass-by-value** evaluation strategy, but offers the `out` and `ref` keywords for programmers to switch to the pass-by-reference evaluation strategy in special cases. These special cases should be avoided.
 
 ## Why avoid pass-by-reference in C#?
 

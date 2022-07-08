@@ -1,7 +1,10 @@
 ---
 layout: post
 title: ".NET Properties vs Methods"
-summary: Use methods rather than .NET properties in situations of slowness, conversions, differing results, side effects, copies, and arrays.
+---
+
+Long story short: use methods rather than .NET properties in situations of slowness, conversions, differing results, side effects, copies, and arrays.
+
 ---
 
 From time to time, I catch something like the following in code reviews:
