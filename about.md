@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi. My name is Hwai-En.
+Since the advent of computers, software technologies have long promised to revolutionize business efficiency. Ironically, dealing with software has become a major pain point for modern businesses, with teams mired in project delays and product defects.
 
-I love learning.
+Hi, this is Hwai-En Ho. For nearly two decades, I have consistently delivered top-quality software using mixtures of technologies in a variety of industries. I developed a systematic approach to gain deep insights into technologies new and old, and to use such insights to maximize product quality excellence and project delivery speed.
 
-I love software.
-
-And I love learning about software.
+I staunchly believe that software has a powerful potential for good. Unsatisfied with the prevalence of software pains in modern businesses, I founded [my own consultancy](dilly.software) to transform software from a painful liability into a winning advantage for small and mid-sized businesses.
