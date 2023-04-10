@@ -1,0 +1,22 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/jekyll:bullseye",
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "medo64.render-crlf",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
