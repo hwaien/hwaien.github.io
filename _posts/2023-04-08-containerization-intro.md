@@ -21,7 +21,7 @@ Virtual machines help to lower computational cost. However, virtualizing an enti
 
 Containerization mechanisms exist as early as the [FreeBSD jail](https://en.wikipedia.org/wiki/FreeBSD_jail) in 2000. On the [Linux](https://en.wikipedia.org/wiki/Linux) operating system, containerization is made possible by [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces) and [control groups](https://en.wikipedia.org/wiki/Cgroups). Namespaces support resource isolation such as separate host names, user identification segregation, and network stack virtualization. Control groups account for and limit the usage of resources such as CPU, memory, disk, and network.
 
-Using these resource management mechanisms, Linux containerization creates an illusion that software processes are running in independent virtual environments, without incurring the cost of running an intermediate virtual machine. The result is greater speed and number of software processes running on the same computer system.
+Using these resource management mechanisms, Linux containerization creates an illusion that software applications are running in independent virtual environments, without incurring the cost of running intermediate virtual machines. This lightweight virtualization approach results in greater speed and number of software applications running on the same computer system.
 
 ## Docker is a useful containerization tool
 
