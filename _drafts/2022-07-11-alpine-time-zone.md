@@ -1,7 +1,17 @@
 ---
 layout: post
-title: Alpine Time Zone
+title: Dev Container Time Zone
 ---
+
+Use the Dev Container feature `ghcr.io/hwaien/devcontainer-features/match-host-time-zone` to make a Dev Container's time zone match the host's time zone.
+
+This Dev Container feature is tested on Mac hosts. It should also work on Linux hosts. I doubt it will work on Windows hosts.
+
+## What Are Containers?
+
+## Dev Containers
+
+## Time Zones
 
 I recently changed my Alpine-based dev container's time zone to Los Angeles by adding `RUN cp /usr/share/zoneinfo/America/Los_Angeles /etc/localtime` to the dev container's docker file.[^1]
 
