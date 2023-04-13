@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Containerization
+title: Containerization
 ---
 
 Containerization is an efficient way to run software applications in independent environments on the same system.
@@ -9,19 +9,19 @@ To skip the history lessons and get started playing around with containers, scro
 
 ## Virtualization lowers the cost of computation
 
-In today's Internet age, many software applications run on computer systems housed in dedicated [data centers](https://en.wikipedia.org/wiki/Data_center) equipped with infrastructure for power supply, networked communication, air conditioning, and security. Equipment installation and maintenance are not cheap, nor is the electricity bill to keep data centers running. Therefore, it is important to maintain high utilization and avoid leaving data center computer systems idle as much as possible.
+In today's Internet age, many software applications run on computer systems housed in dedicated [data centers](https://en.wikipedia.org/wiki/Data_center) equipped with infrastructure for power supply, networked communication, air conditioning, and security. Equipment installation and maintenance are not cheap, nor is the electricity bill to keep data centers running. It is costly to leave computer systems idle.
 
-A simple way to do this is to run multiple parallel applications directly on the same computer system. Although it helps to lower cost, this approach is problematic. Firstly, different applications may have [conflicting dependencies](https://en.wikipedia.org/wiki/Dependency_hell), preventing correct installation and setup. Even if setup can be done correctly, there is risk of one application's misbehavior—malicious or otherwise—causing other applications running on the same system to malfunction.
+Cost is managed by keeping computer systems busy. Computer systems are kept busy by running more software applications on the same system. However, running too many software applications side-by-side directly on the same system can be problematic. Firstly, different applications may have [conflicting dependencies](https://en.wikipedia.org/wiki/Dependency_hell), preventing correct installation and setup. Even if setup can be done correctly, there is risk of one application's misbehavior—malicious or otherwise—causing other applications running on the same system to fail.
 
-A less problematic way to run parallel applications is [virtualization](https://en.wikipedia.org/wiki/Virtualization), where software applications on the same computer system run in isolated virtual environments. This approach has been in use as far back as the IBM [CP/CMS](https://en.wikipedia.org/wiki/CP/CMS) in the 1960s, where the system provided each user with a virtual machine environment. Since then, [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) technology has matured and become widely adopted. Today, it is supported on all major cloud platforms, including [Amazon EC2](https://aws.amazon.com/ec2/), [Google Compute Engine](https://cloud.google.com/compute/), and [Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/).
+The solution to these problems is [virtualization](https://en.wikipedia.org/wiki/Virtualization), where software applications on the same computer system run in isolated virtual environments. This approach has been in use as far back as the IBM [CP/CMS](https://en.wikipedia.org/wiki/CP/CMS) in the 1960s, where the system provided each user with a virtual machine environment. Since then, [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) technology has matured and become widely adopted. Today, it is supported on all major cloud platforms, including [Amazon EC2](https://aws.amazon.com/ec2/), [Google Compute Engine](https://cloud.google.com/compute/), and [Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/).
 
 ## Containerization is a lightweight kind of virtualization
 
-Virtual machines help to lower computational cost. However, virtualizing an entire computer system is a heavy task. This limits the speed and number of virtual machines running on the same computer system. Further cost savings can be achieved with the observation that only parts of a computer system need to be virtualized for an environment to seem sufficiently isolated. This observation leads to the development of [operating-system-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization), or **containerization**.
+Virtual machines help to lower computational cost. However, virtualizing an entire computer system is a heavy task. This limits the speed and number of virtual machines running on the same computer system. Further cost savings can be achieved with the observation that only parts of a computer system need to be virtualized for an environment to seem sufficiently isolated. This observation leads to the development of [operating-system-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization), or containerization.
 
 Containerization mechanisms exist as early as the [FreeBSD jail](https://en.wikipedia.org/wiki/FreeBSD_jail) in 2000. On the [Linux](https://en.wikipedia.org/wiki/Linux) operating system, containerization is made possible by [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces) and [control groups](https://en.wikipedia.org/wiki/Cgroups). Namespaces support resource isolation such as separate host names, user identification segregation, and network stack virtualization. Control groups account for and limit the usage of resources such as CPU, memory, disk, and network.
 
-Using these resource management mechanisms, Linux containerization creates an illusion that software processes are running in independent virtual environments, without incurring the cost of running an intermediate virtual machine. The result is greater speed and number of software processes running on the same computer system.
+Using these resource management mechanisms, Linux containerization creates an illusion that software applications are running in independent virtual environments, without incurring the cost of running intermediate virtual machines. This lightweight virtualization approach results in greater speed and number of software applications running on the same computer system.
 
 ## Docker is a useful containerization tool
 
