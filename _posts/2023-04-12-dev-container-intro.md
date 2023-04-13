@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Dev Containers
+title: Dev Containers
 ---
 
 Dev Containers help software developers effortlessly maintain consistent environments for software development.

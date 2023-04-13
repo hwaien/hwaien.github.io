@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Containerization
+title: Containerization
 ---
 
 Containerization is an efficient way to run software applications in independent environments on the same system.
