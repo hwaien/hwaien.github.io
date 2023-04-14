@@ -17,11 +17,5 @@
 To preview the site locally, run the following at the terminal:
 
 ```
-bundle exec jekyll serve
-```
-
-To preview drafts, run:
-
-```
-bundle exec jekyll serve --drafts
+make serve
 ```

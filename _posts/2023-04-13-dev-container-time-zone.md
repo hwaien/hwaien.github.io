@@ -15,7 +15,7 @@ As a consequence of file system isolation, any file-based operation inside a con
 
 ## Time zone matters in software development
 
-A Dev Container's `/etc/localtime` is set to a fixed time zone when its image was built. For many Dev Containers, this time zone is UTC±00:00. This means that Dev Containers will usually have a time zone that is different from the developer's local time zone.
+A Dev Container's `/etc/localtime` is set to a fixed time zone when its image was built. For many Dev Containers, this time zone is UTC±00:00. This means that Dev Containers usually come with a time zone that is different from the developer's local time zone.
 
 This is unfortunate, as time zone matters in software development. Computer software components typically log records of significant events during their operations. The logs include [timestamps](<https://en.wikipedia.org/wiki/Timestamping_(computing)>) to clarify the temporal order of events. Software developers use these logs to either confirm the correctness of software functions or troubleshoot software errors.
 
