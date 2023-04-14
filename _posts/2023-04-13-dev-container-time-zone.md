@@ -7,7 +7,7 @@ Use the Dev Container Feature `ghcr.io/hwaien/devcontainer-features/match-host-t
 
 ## Containers isolate time zone tracking
 
-For those unfamiliar: [Dev Containers]({% post_url 2023-04-12-dev-container-intro %}) are an effortless way for software developers to maintain consistent development environments. Dev Containers are built on top of industry standard [container]({% post_url 2023-04-08-containerization-intro %}) formats and runtimes.
+For those unfamiliar: [Dev Containers]({% post_url 2023-04-12-dev-container-intro %}) are a blissful way for software developers to maintain consistent development environments. Dev Containers are built on top of industry standard [container]({% post_url 2023-04-08-containerization-intro %}) formats and runtimes.
 
 An essential feature of containers is file system isolation. A container's file system is virtually isolated from the host's file system. (This is done using the [`pivot_root`](https://man7.org/linux/man-pages/man2/pivot_root.2.html) system call to mount a separate root file system for the container, and using the [mount namespaces](https://www.man7.org/linux/man-pages/man7/mount_namespaces.7.html) feature to keep the container's directory hierarchy isolated.)
 
