@@ -19,7 +19,7 @@ A Dev Container's `/etc/localtime` is set to a fixed time zone when its image wa
 
 This is unfortunate, as time zone matters in software development. Computer software components typically log records of significant events during their operations. The logs include [timestamps](<https://en.wikipedia.org/wiki/Timestamping_(computing)>) to clarify the temporal order of events. Software developers use these logs to either confirm the correctness of software functions or troubleshoot software errors.
 
-Troubleshooting software errors is not an easy task, sometimes involving lengthy log files, and sometimes involving accounting for events from multiple log files. Having the log files record timestamps in a time zone that is different from the developer's local time zone only makes the task more unwieldy and mistakes more likely.
+Troubleshooting software errors is not an easy task, sometimes involving lengthy log files, and sometimes involving accounting for events from multiple log files. Having the log files record timestamps in a time zone that is different from the developer's local time zone only makes the troubleshooting task more complicated and mistakes more likely.
 
 ## Match container time zone with host
 
