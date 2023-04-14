@@ -15,7 +15,7 @@ Even with best efforts to maintain documentation, it is not uncommon for new dev
 
 After painstaking development environment setup, teams often still end up with subtle inconsistencies among team members' development environments, causing inconsistent experiences that distract, frustrate, and hinder the team to build software efficiently.
 
-Such efficiency loss is especially hard to ignore for projects involving many developers (such as open-source projects) and for developers working on many projects (such as software consultants).
+This efficiency loss is especially hard to ignore for projects involving many developers (such as open-source projects) and for developers working on many projects (such as software consultants).
 
 ## Development environment snapshots reduce setup pains
 
@@ -23,7 +23,7 @@ Solutions to the development environment setup problem revolve around the idea o
 
 ### Disk Images
 
-Snapshotting devices as [disk images](https://en.wikipedia.org/wiki/Disk_image) is a time-honored computer management practice dating back to the 1960s. Though mainly used to [back up](https://en.wikipedia.org/wiki/Backup) data and mitigate data loss events, disk images are also widely used to rapidly deploy identical configurations across computers.
+Snapshotting storage devices as [disk images](https://en.wikipedia.org/wiki/Disk_image) is a time-honored computer management practice dating back to the 1960s. Though mainly used to [back up](https://en.wikipedia.org/wiki/Backup) data and mitigate data loss events, disk images are also widely used to rapidly deploy identical configurations across computers.
 
 In the context of development environment setup: once a team member successfully creates a proper development environment, a system administrator can create a disk image of that system, and use [disk cloning](https://en.wikipedia.org/wiki/Disk_cloning) to rapidly recreate the same environment on other team members' machines. Not only does this approach speed up the setup process, it also eliminates the possibility of inconsistencies.
 
