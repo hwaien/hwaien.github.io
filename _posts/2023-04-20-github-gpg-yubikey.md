@@ -30,7 +30,7 @@ To sign a piece of data, the cryptosystem's signing algorithm takes the data and
 
 When someone comes across the data and its associated digital signature, and want to verify the data's authenticity and integrity, they use the same cryptosystem's signature verifying algorithm. The inputs to the algorithm are the data, the digital signature, and the public key. The output of the algorithm is a true/false answer about whether the data is from its claimed creator and is unaltered.
 
-There are several digital signature tools available today. To get started, I recommend using [GNU Privacy Guard](https://en.wikipedia.org/wiki/GNU_Privacy_Guard), or GPG. It is a free software, compliant with the industry standard OpenPGP specification, well [documented](https://gnupg.org/documentation/index.html), and available on most platforms. On the Mac, you can easily find it and install it [with Homebrew](https://formulae.brew.sh/formula/gnupg). For software developers, you would be happy to know that Git has first-class integration with GPG.
+There are several digital signature tools available today. To get started, I recommend using [GNU Privacy Guard](https://en.wikipedia.org/wiki/GNU_Privacy_Guard), or GPG. It is a free software, compliant with the industry standard OpenPGP specification, well [documented](https://gnupg.org/documentation/index.html), and available on most platforms. On the Mac, you can easily find it and install it [with Homebrew](https://formulae.brew.sh/formula/gnupg). For software developers, you will be happy to know that Git has first-class integration with GPG.
 
 ## Use smart cards to keep private keys safe
 
