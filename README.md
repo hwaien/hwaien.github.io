@@ -14,8 +14,8 @@
 
 ## Local Preview
 
-To preview the site locally, run the following at the terminal:
+To preview the site locally,
 
-```
-make serve
-```
+1. Open the VS Code **Terminal** menu and
+1. Go to **Run Task...** then
+1. **Serve**.
