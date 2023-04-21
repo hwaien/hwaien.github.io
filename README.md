@@ -19,3 +19,7 @@ To preview the site locally,
 1. Open the VS Code **Terminal** menu and
 1. Go to **Run Task...** then
 1. **Serve**.
+
+Or, run the following at the terminal:
+
+`make serve`
