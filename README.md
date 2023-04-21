@@ -14,14 +14,12 @@
 
 ## Local Preview
 
-To preview the site locally, run the following at the terminal:
+To preview the site locally,
 
-```
-bundle exec jekyll serve
-```
+1. Open the VS Code **Terminal** menu and
+1. Go to **Run Task...** then
+1. **Serve**.
 
-To preview drafts, run:
+Or, run the following at the terminal:
 
-```
-bundle exec jekyll serve --drafts
-```
+`make serve`

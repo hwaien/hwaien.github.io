@@ -7,7 +7,7 @@ Use the Dev Container Feature `ghcr.io/hwaien/devcontainer-features/match-host-t
 
 ## Containers isolate time zone tracking
 
-For those unfamiliar: [Dev Containers]({% post_url 2023-04-12-dev-container-intro %}) are an effortless way for software developers to maintain consistent development environments. Dev Containers are built on top of industry standard [container]({% post_url 2023-04-08-containerization-intro %}) formats and runtimes.
+For those unfamiliar: [Dev Containers]({% post_url 2023-04-12-dev-container-intro %}) are a blissful way for software developers to maintain consistent development environments. Dev Containers are built on top of industry standard [container]({% post_url 2023-04-08-containerization-intro %}) formats and runtimes.
 
 An essential feature of containers is file system isolation. A container's file system is virtually isolated from the host's file system. (This is done using the [`pivot_root`](https://man7.org/linux/man-pages/man2/pivot_root.2.html) system call to mount a separate root file system for the container, and using the [mount namespaces](https://www.man7.org/linux/man-pages/man7/mount_namespaces.7.html) feature to keep the container's directory hierarchy isolated.)
 
@@ -15,11 +15,11 @@ As a consequence of file system isolation, any file-based operation inside a con
 
 ## Time zone matters in software development
 
-A Dev Container's `/etc/localtime` is set to a fixed time zone when its image was built. For many Dev Containers, this time zone is UTC±00:00. This means that Dev Containers will usually have a time zone that is different from the developer's local time zone.
+A Dev Container's `/etc/localtime` is set to a fixed time zone when its image was built. For many Dev Containers, this time zone is UTC±00:00. This means that Dev Containers usually come with a time zone that is different from the developer's local time zone.
 
 This is unfortunate, as time zone matters in software development. Computer software components typically log records of significant events during their operations. The logs include [timestamps](<https://en.wikipedia.org/wiki/Timestamping_(computing)>) to clarify the temporal order of events. Software developers use these logs to either confirm the correctness of software functions or troubleshoot software errors.
 
-Troubleshooting software errors is not an easy task, sometimes involving lengthy log files, and sometimes involving accounting for events from multiple log files. Having the log files record timestamps in a time zone that is different from the developer's local time zone only makes the task more unwieldy and mistakes more likely.
+Troubleshooting software errors is not an easy task, sometimes involving lengthy log files, and sometimes involving accounting for events from multiple log files. Having the log files record timestamps in a time zone that is different from the developer's local time zone only makes the troubleshooting task more complicated and mistakes more likely.
 
 ## Match container time zone with host
 
