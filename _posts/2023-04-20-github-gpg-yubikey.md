@@ -24,9 +24,9 @@ If you are using [Git](https://en.wikipedia.org/wiki/Git) and [GitHub](https://e
 
 Digital signatures guarantee the authenticity and integrity of electronic data. That is to say, digital signatures guarantee that a piece of electronic data comes from a known creator, and is not altered by anyone else. Digital signature schemes are a mature technology, having been around as early as the [publication](https://ocw.bib.upct.es/pluginfile.php/5337/mod_resource/content/1/rsa_base.pdf) of the [RSA cryptosystem](<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>) concept in 1976. Like other digital signature schemes, the RSA cryptosystem meets authenticity and integrity guarantees by using [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
-Public-key cryptosystems are built around the concept of key pairs. A key pair consists of a piece of electronic data known as the private key, and a corresponding piece of electronic data known as the public key. The owner of a key pair keeps the pair's private key secret while making the pair's public key known to others.
+Public-key cryptosystems are built around the concept of key pairs. A key pair consists of a piece of information known as the private key, and a corresponding piece of information known as the public key. The owner of a key pair keeps the pair's private key secret while making the pair's public key known to others.
 
-To sign a piece of data, the cryptosystem's signing algorithm takes the data and the private key as inputs, and generates a small piece of data as output. This output is known as the owner's digital signature associated with the input data.
+To sign a piece of data, the cryptosystem's signing algorithm takes the data and the private key as inputs, and generates a unique output known as the owner's digital signature associated with the input data.
 
 When someone comes across the data and its associated digital signature, and want to verify the data's authenticity and integrity, they are to use the same cryptosystem's signature verifying algorithm. The inputs to the algorithm are the data, the digital signature, and the public key. The output of the algorithm is a true/false answer about whether the data is from its claimed creator and is unaltered.
 
