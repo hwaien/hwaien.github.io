@@ -47,7 +47,7 @@ Once you have a YubiKey and have installed GPG on your computer, you are ready t
 
 The first option is more secure. It makes sure that your computer has no knowledge of the private key, even during key generation. This leaves no opportunity for attackers to steal the private key. However, this also means that you have no way to back up the private key. The key is irrecoverable if your YubiKey is lost or damaged. If recovery is important to you, choose the second option.
 
-Once you've weighed the options and made your decision, follow [Yubico's instructions](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) step-by-step to generate your key pair. Pay attention to the key size. To comply with GitHub's [commit signature verification](commit-signature-verification), your key must be [at least **4096** bits](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
+Once you've weighed the options and made your decision, follow [Yubico's instructions](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) step-by-step to generate your key pair. Pay attention to the key size. To comply with GitHub's [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification), your key must be [at least **4096** bits](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
 
 Once you finish generating your key pair, use the following command to confirm that you can use it to generate digital signatures. (Replace `3AA5C34371567BD2` with your key ID.)
 
