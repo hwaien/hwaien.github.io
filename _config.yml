@@ -19,19 +19,30 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Hwai-En's Blog
-author: Hwai-En Ho
-email: blog@hwaien.com
+author:
+  name: Hwai-En Ho
+  email: blog@hwaien.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about software.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hwaien.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username: hwaien
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+
+minima:
+  skin: auto
+  social_links:
+    - platform: linkedin
+      title: Find me on LinkedIn
+      user_url: "https://www.linkedin.com/in/hwaien/"
+    - platform: github
+      title: Find me on GitHub
+      user_url: "https://github.com/hwaien"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
