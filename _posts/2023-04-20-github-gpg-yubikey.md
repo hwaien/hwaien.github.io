@@ -66,7 +66,7 @@ git config --global user.signingkey 3AA5C34371567BD2
 
 Side note: I do not have [GPG Suite](https://gpgtools.org/) installed. If you are like me, pay attention to the instructions about `export GPG_TTY=$(tty)` and/or `pinentry-mac` in the [same article](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key). Otherwise, attempting to do Git commits while your YubiKey is locked will lead to [frustrating `Inappropriate ioctl` errors](https://stackoverflow.com/questions/57591432/gpg-signing-failed-inappropriate-ioctl-for-device-on-macos-with-maven) that waste your precious development time.
 
-Once Git is configured to automatically invoke the signing algorithm on your end, complete the scheme by configuring GitHub to invoke the signature verification algorithm on their end. Follow the [configuration steps specified by GitHub](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account).
+Once Git is configured to automatically invoke the signing algorithm on your end, close the loop by configuring GitHub to invoke the signature verification algorithm on their end. Follow the [configuration steps specified by GitHub](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account).
 
 For GitHub repository administrators: if you want to ensure contributors follow commit signature verification practices, enable "[Require signed commits](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-signed-commits)" on the repository's protected branch(es).
 
