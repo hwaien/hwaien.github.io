@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "YubiKey and GitHub Signature Verification"
-excerpt: "Improve software security by signing Git commits with a YubiKey-generated GPG key and configuring GitHub to verify commit signatures."
+excerpt: "Improve software security by signing Git commits with a YubiKey-managed GPG key and configuring GitHub to verify commit signatures."
 ---
 
 ## Practice software security to fight cyberattacks
