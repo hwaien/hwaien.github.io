@@ -86,7 +86,7 @@ When prompted, enter `yes` to start provisioning Odoo.
 
 When provisioning completes, use your browser to navigate to `https://tulip.example.com/web` to confirm that Odoo is up and running.
 
-To migrate data from your computer's instance of Odoo to your cloud instance of Odoo, follow the [documentation here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781785883644/1/ch01lvl1sec12/managing-odoo-server-databases) to back up your computer's Odoo database, saving it as a zip file. Follow the same documentation to remove your cloud Odoo's existing database, then restore the database with the zip file you previously saved. Use the same method you used before to find the value of the `ODOO_PASSWORD` environment variable, and use it as the database "Master Password."
+To migrate data from your computer's instance of Odoo to your cloud instance of Odoo, follow the [documentation here](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781785883644/1/ch01lvl1sec12/managing-odoo-server-databases) to back up your computer's Odoo database, saving it as a zip file. Follow the same documentation to delete your cloud Odoo's existing database, then restore the database with the zip file you previously saved. The backup, delete, and restore database operations all require a "Master Password." Use the value of the `ODOO_PASSWORD` environment variable. On your computer, use `kubectl` to look it up as you did before. On the cloud, use the [Kubernetes Dashboard](https://docs.digitalocean.com/products/kubernetes/quickstart/#kubernetes-dashboard) to look it up.
 
 ## References
 
