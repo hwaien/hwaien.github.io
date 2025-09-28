@@ -10,11 +10,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "DavidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
         "eamodio.gitlens",
         "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
         "medo64.render-crlf",
+        "Shopify.ruby-lsp",
         "streetsidesoftware.code-spell-checker"
       ]
     }
