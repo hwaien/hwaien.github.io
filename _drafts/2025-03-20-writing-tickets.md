@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Writing Clear and Actionable Work Tracking Tickets"
-excerpt: "A practical guide for submitting requests and bug reports that actually get resolved"
+excerpt: "A practical guide for submitting software feature requests and bug reports that actually get resolved"
 ---
 
 I do not believe any software team can foresee every user need and create a perfect product on the first try. Iterative development is the only path to software success, and a constant feedback loop is one of its most essential building blocks.
